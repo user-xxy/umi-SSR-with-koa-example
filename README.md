@@ -123,8 +123,7 @@ $ yarn start
 $ node server.js
 ```
 3、打开浏览器页面：`http://localhost:7001`，即可看到服务端渲染后的页面了。
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/55080157/153545542-be3159f4-4a8a-461b-af3e-b1264bc245c6.png">
-
+<img width="1249" alt="image" src="https://user-images.githubusercontent.com/55080157/153545633-655c583c-5923-4a14-b09b-b6daafcfd77c.png">
 
 ## 注意点
 1、本案例使用的是通过 koa 请求 api 接口，然后将接口数据注入到 `ctx 参数` 中去，我个人喜欢这种方式，因为通过这种方式在浏览器的 network 中看不到请求信息。你也可以使用 umi 提供的其他方式获取数据；
