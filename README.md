@@ -123,6 +123,7 @@ $ yarn start
 $ node server.js
 ```
 3、打开浏览器页面：`http://localhost:7001`，即可看到服务端渲染后的页面了。
+
 <img width="1249" alt="image" src="https://user-images.githubusercontent.com/55080157/153545633-655c583c-5923-4a14-b09b-b6daafcfd77c.png">
 
 ## 注意点
@@ -135,7 +136,7 @@ $ node server.js
     devServerRender:false,
   },
 ```
-第一个 `removeWindowInitialProps` ，如果你是动态加载数据的（从接口请求数据的），一定不要配置此项，因为他只适合静态站点，否则项目会一直报错。第二个 `devServerRender` ，是为了和 nodejs 框架集成，所以要打开。
+第一个 `removeWindowInitialProps` ，如果你是动态加载数据的（从接口请求数据的），一定不要配置此项，因为他只适合静态站点，否则项目会一直报错。第二个 `devServerRender` ，是为了和 nodejs 框架集成，所以要设置为 `false`。
 
 ## umi ssr 不与其他框架耦合的原因
 
